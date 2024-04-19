@@ -1,0 +1,274 @@
+@import url("./colours.css");
+
+
+window {
+    background: rgba(0,0,0,0.3);
+    border-radius: 8px;
+    border: 2px solid @pink;
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+    color: @text
+}
+
+button {
+    box-shadow: none;
+    text-shadow: none;
+}
+/* Bar section */
+
+.divider {
+    background: @pink;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.workspace_indicator {
+    background: @mantle;
+    margin: 5px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .workspace {
+        background: @surface0;
+        border: 0px;
+        border-radius: 0px;
+        min-width: 6px;
+        min-height: 5px;
+        margin-bottom: 3px;
+        margin-top: 3px;
+    }
+
+    .workspace.active {
+        background: @pink;
+        min-height: 25px;
+    }
+
+
+.time {
+    /*background: #363636;*/
+    background: transparent;
+    min-width: 20px;
+    min-height: 30px;
+    color: @text;
+    padding: 5px;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+.battery {
+    background: transparent;
+    color:@text;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* End Bar Section */
+
+.home {
+    background: rgba(0,0,0,0.5);
+    min-width: 500px;
+    border: solid @pink 3px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+.user_box {
+    background: rgba(11,11,11,0.9);
+    border-radius: 6px;
+    color: @text;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shutdown_button {
+    background: #262121;
+}
+
+/* Volume Section */
+
+.slider_box {
+    background: @mantle;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.vol_icon {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.vol_slider trough {
+    background: @crust;
+    border: none;
+    border-radius: 8px;
+    min-height: 15px;
+}
+
+.vol_slider trough slider {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.vol_slider highlight {
+    background: @pink;
+    border: none;
+    border-radius: 8px;
+    min-height: 15px;
+}
+
+/* End Volume Section */
+
+/* Media Section */
+
+.mus_player {
+    background: @mantle;
+    margin: 10px;
+    min-height: 20px;
+    padding: 10px;
+}
+
+.mus_title {
+    font-size: 18px;
+}
+
+.mus_position {
+    margin: 5px;
+}
+
+.mus_position trough {
+    background: @crust;
+    border: none;
+    border-radius: 8px;
+    min-height: 15px;
+}
+
+.mus_position trough slider {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.mus_position highlight {
+    background: @pink;
+    border: none;
+    border-radius: 8px;
+    min-height: 15px;
+}
+
+.play_pause {
+    background: @mantle;
+    border: none;
+    box-shadow: none;
+    color: @text;
+    font-size: 20px;
+}
+
+.prev {
+    background: @mantle;
+    border: none;
+    box-shadow: none;
+    color: @text;
+    font-size: 20px;
+}
+
+.next {
+    background: @mantle;
+    border: none;
+    box-shadow: none;
+    color: @text;
+    font-size: 20px;
+}
+
+.mus_pos_label {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.mus_length {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+/* Notification Section */
+
+.notif_title {
+    padding: 10px;
+    color: @text;
+}
+
+.notification_centre {
+    background: @mantle;
+    /* border-bottom: solid 2px @pink;*/
+    color: #f4f4f4;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.header {
+    background: @mantle;
+    border-bottom: solid 2px @pink;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.appname {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.summary {
+    font-size: 16px;
+}
+
+.notification {
+    background: @base;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+.notifications {
+    padding-top: 10px;
+}
+
+.clear_notif_button {
+    background: @base;
+    border-radius: 0px;
+    border: none;
+    color: @text
+}
+
+
+.remove_notif_button {
+    background: @base;
+    border: none;
+    border-radius: 0px;
+    color: @crust;
+    font-size: 18px;
+}
+
+
+/* End Notification Section */
+
+.music {
+    background: rgba(0,0,0,0.5);
+    border: solid @pink 3px;
+    border-radius: 8px;
+}
+
+.ncmpcpp {
+    border-radius: 6px;
+}
+
+.lyrics {
+    margin: 10px;
+    border-radius: 10px;
+}
