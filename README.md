@@ -2,7 +2,7 @@
 
 Distro is Arch, WM is Hyprland. Widgets are made using Aylur's ags.
 
-GUI apps use the biscuit colourscheme.
+Terminal and GUI programs use the biscuit colourscheme.
 
 | ![image](https://github.com/bedr-a/dotfiles/assets/167578319/e8bdbf61-059d-4586-9277-6500b6f5d48a) | ![image](https://github.com/bedr-a/dotfiles/assets/167578319/292794bd-f548-4151-96f3-28bd8c906f2f) |
 | --- | --- |
