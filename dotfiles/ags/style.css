@@ -1,0 +1,238 @@
+.window_title {
+    padding-right: 200px;
+    padding-top: 11px;
+    font-size: 22px;
+    font-family: "NanumMyeongjo,나눔명조";
+    color: #b2ab93;
+}
+
+.frame {
+    border: none;
+}
+
+.workspace_box {
+    padding-top: 5px;
+}
+
+.shutdown {
+    color: #e7bb7d;
+    font-size: 40px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.shutdown:focus {
+    color: #21F3D9;
+}
+
+.restart {
+    color: #e7bb7d;
+    font-size: 40px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.restart:focus {
+    color: #21F3D9;
+}
+
+.settings {
+    color: #e7bb7d;
+    font-size: 40px;
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.settings:focus {
+    color: #21F3D9;
+}
+
+.clock {
+    font-size: 40px;
+    color: #e7bb7d;
+}
+
+.battery {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #e7bb7d;
+}
+
+.visible_menu {
+    margin-bottom: 100px;
+}
+
+.return {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.volume_box {
+    margin: 40px;
+    color: #e7bb7d;
+    font-size: 24px;
+}
+
+.volume_slider {
+    margin-left: 39px;
+    background: transparent;
+}
+
+.volume_slider trough {
+    background: transparent;
+    border-color: transparent;
+}
+
+.volume_slider trough slider {
+    background: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.volume_slider highlight {
+    background: #e7bb7d;
+    border: none;
+}
+
+.volume_mixer {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 18px;
+    color: #e7bb7d;
+}
+
+.mixer_slider {
+    margin-left: 39px;
+    background: transparent;
+}
+
+.mixer_slider trough {
+    background: transparent;
+    border-color: transparent;
+}
+
+.mixer_slider trough slider {
+    background: transparent;
+    border-radius: 0px;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.mixer_slider highlight {
+    background: #e7bb7d;
+    border: none;
+}
+
+.wifi_box {
+    margin-top: 40px;
+    font-size: 24px;
+    color: #e7bb7d;
+}
+
+.wifi_enabled {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+.wifi_ssid {
+    font-size: 24px;
+}
+
+.wifi_switch {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+
+.notification {
+    background: #181515;
+    min-width: 300px;
+    min-height: 80px;
+    margin-bottom: 5px;
+    border-left: #e7bb7d 5px solid;
+    color: #e7bb7d
+}
+
+.content {
+    margin: 5px;
+}
+
+.title {
+    font-size: 24px;
+}
+
+.description {
+    font-size: 18px;
+}
+
+.actions_horizontal button {
+    border-radius: 0px;
+    background: #121212;
+    margin: 3px;
+    color: #e7bb7d;
+    border: 0px;
+    box-shadow: none;
+}
+
+.launcher_entry {
+    background: rgba(24,21,21,0.5);
+    color: white;
+    box-shadow: none;
+    text-shadow: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 22px;
+    border-radius: 0px;
+    border-color: #e7bb7d;
+}
+
+.launcher_entry:focus {
+    border-color: #21F3D9;
+}
+
+.launcher_app {
+    background: rgba(24,21,21,0.5);
+    box-shadow: none;
+    border-radius: 0px;
+    border-width: 0px 0px 0px 4px;
+    border-color: #e7bb7d;
+    color: #e7bb7d;
+}
+
+.launcher_app:focus {
+    border-color: #21F3D9;
+    background: rgba(24,21,21,1);
+    color: #21F3D9;
+}
+
+.app_title {
+    margin-left: 10px;
+}
+
+.launcher_box {
+    margin-right: 214px;
+    margin-left: 210px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background: rgba(24,21,21,0.5);
+}
+
+.launcher_scroll {
+    margin: 16px;
+    margin-bottom: 0px;
+}
+
+.launcher_scroll trough slider {
+    border-radius: 0px;
+    background: #e7bb7d;
+}
