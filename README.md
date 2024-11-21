@@ -1,5 +1,7 @@
 # Ruina dotfiles
 
+!! Out of Date. This uses v1 of aylur's ags, which has since been replaced by v2 of ags, which features many breaking changes.
+
 Distro is Arch, WM is Hyprland. Widgets are made using Aylur's ags.
 
 Terminal and GUI programs use the biscuit colourscheme.
